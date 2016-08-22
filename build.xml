@@ -1,4 +1,4 @@
-<project name="Solr Cloud">
+<project name="Spark Applications">
  <description>
    Jenkins Ant file for Spark Applications
  </description>
@@ -7,7 +7,7 @@
 
  <target name="hello_world_demo">
     <exec executable="/bin/sh">
-      <arg file="${env.WORKSPACE}/deploy-scripts/hello_world_demo.sh"/>
+      <arg file="deploy-scripts/hello_world_demo.sh"/>
       <arg line="-e ${env}"/>
     </exec>
  </target>

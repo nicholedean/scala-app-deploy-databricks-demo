@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-mvn clean package
+cd hello-world-demo; mvn clean package -X
