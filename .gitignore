@@ -1,3 +1,4 @@
 .idea
 */target/*
 hello-world-demo/src/main/main.iml
+*.iml
